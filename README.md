@@ -2,8 +2,10 @@
 
 <img src="https://cristianomendes.vercel.app/assets/freeloot-pc.png">
 
+[Acesse FreeLoot API aqui](https://github.com/CristianoMends/FreeLoot-API)
+
 <p align="center">
     <b>
-        Uma interface básica para consumir a <a src="https://github.com/CristianoMends/FreeLoot-API">FreeLoot API</a>
+        Uma interface básica para consumir a FreeLoot API
     </b>
 </p>
