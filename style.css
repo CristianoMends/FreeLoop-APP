@@ -1,0 +1,147 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #445;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h2{
+    margin: 15px 0;
+}
+footer{
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+footer a{
+    text-decoration: none;
+}
+footer p{
+    margin: 0;
+}
+header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(240, 240, 240);
+    color: aliceblue;
+    font-weight: bold;
+}
+.menu{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #111;
+}
+.menu div{
+    position: relative;
+    margin: 10px;
+}
+.menu .right a{
+    text-decoration: none;
+    font-size: medium;
+    border: 1px solid;
+    padding: 3px;
+    border-radius: 3px;
+    color: #111;
+    font-weight: 200;
+}
+header img{
+    border-radius: 50%;
+    height: 50px;
+    border: 1px solid;
+}
+
+.presentation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-color: rgb(240, 240, 240);
+    font-size: xx-large;
+}
+
+.free-games-weekly-section{
+    text-align: center;
+}
+.free-games-weekly-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+.free-games-weekly-container a{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    height: 300px;
+    width: 400px;
+    text-decoration: none;
+    background-color: #111;
+    border-radius: 5px;
+}
+.free-games-weekly-container a div{
+    height: 50%;
+    width: 100%;
+}
+.free-games-weekly-container a div:nth-child(2){
+    background-color: #111;
+}
+.free-games-weekly-container a p{
+    margin: 2px 0 0 0;
+    font-size: small;
+    padding: 0;
+}
+.free-games-weekly-container a img{
+    width: 100%;
+}
+.free-games-weekly-container a:hover{
+    scale: 1.1;
+    background-color: rgb(202, 202, 202);
+    cursor: pointer;
+}
+.free-games-weekly-container a img{
+    border-radius: 5px;
+}
+/*-------------------------------------------------*/
+.games-aways-free-section{
+    text-align: center;
+}
+.games-aways-free-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+.games-aways-free-container a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 200px;
+    text-decoration: none;
+    margin: 5px;
+}
+.games-aways-free-container a:hover{
+    scale: 1.1;
+    background-color: rgb(202, 202, 202);
+    color: #444455;
+    cursor: pointer;
+}
+.games-aways-free-container a img{
+    border-radius: 5px;
+}
+main section,a{
+    color: aliceblue;
+}
